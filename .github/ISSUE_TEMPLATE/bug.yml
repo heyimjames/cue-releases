@@ -1,0 +1,20 @@
+name: Something isn't working
+description: A pad, pairing, or the Mac app misbehaves
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      placeholder: "Cue for Mac 0.3 · Cue for iPhone 0.3 (3) · macOS 26.x · iOS 26.x"
+  - type: textarea
+    id: pad
+    attributes:
+      label: The pad involved, if any
+      description: What it does (from long-press → Edit pad), and the app that was in front on the Mac.

@@ -1,0 +1,24 @@
+name: Request TestFlight access
+description: Try Cue on your iPhone or iPad
+title: "TestFlight access"
+labels: [testflight]
+body:
+  - type: input
+    id: email
+    attributes:
+      label: Apple Account email
+      description: The email TestFlight should invite. If you'd rather not post it publicly, leave this blank and I'll reply asking for it privately.
+    validations:
+      required: false
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options: [iPhone, iPad, Both]
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: What would you use Cue for?
+      description: Optional, but it shapes what gets built next.
