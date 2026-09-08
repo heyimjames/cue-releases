@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/heyimjames/cue-releases/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Mac-DMG-1f1f1f?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Mac"></a>
-  <a href="https://github.com/heyimjames/cue-releases/issues/new?title=TestFlight%20access&body=I%27d%20like%20to%20try%20Cue%20on%20iPhone%20or%20iPad."><img src="https://img.shields.io/badge/iPhone%20%26%20iPad-Request%20TestFlight-f2b233?style=for-the-badge&logo=apple&logoColor=1f1f1f" alt="Request TestFlight access"></a>
+  <a href="https://github.com/heyimjames/cue-releases/issues/new?template=testflight.yml"><img src="https://img.shields.io/badge/iPhone%20%26%20iPad-Request%20TestFlight-f2b233?style=for-the-badge&logo=apple&logoColor=1f1f1f" alt="Request TestFlight access"></a>
   <a href="https://github.com/heyimjames/cue-releases/stargazers"><img src="https://img.shields.io/github/stars/heyimjames/cue-releases?style=for-the-badge&label=Star%20this%20repo&color=1f1f1f" alt="Star this repo"></a>
 </p>
 
@@ -45,7 +45,7 @@ Tap a pad on your phone and it happens on the Mac. Every pad tells the truth: it
 ## Get started
 
 1. **Mac:** download the DMG from the [latest release](https://github.com/heyimjames/cue-releases/releases/latest), open it and drag Cue to Applications. It is signed with a Developer ID and notarized by Apple. Cue lives in the menu bar.
-2. **iPhone or iPad:** Cue is on TestFlight. [Ask for access](https://github.com/heyimjames/cue-releases/issues/new?title=TestFlight%20access&body=I%27d%20like%20to%20try%20Cue%20on%20iPhone%20or%20iPad.) and you will get an invite.
+2. **iPhone or iPad:** Cue is on TestFlight. [Ask for access](https://github.com/heyimjames/cue-releases/issues/new?template=testflight.yml) and you will get an invite.
 3. Open Cue on both, on the same Wi‑Fi. Choose your Mac on the phone and type the four‑digit code shown under **Devices** in Cue for Mac. Once.
 
 The starter deck covers calls, sound, windows, system and a developer page, so it is useful before you edit anything.
